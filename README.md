@@ -10,9 +10,15 @@ DataCoSupplyChainDataset : [Dataset link](https://data.mendeley.com/datasets/8gx
 
 Constante, Fabian; Silva, Fernando; Pereira, António (2019), “DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS”, Mendeley Data, V5, doi: 10.17632/8gx2fvg2k6.5
 
+## Python and Jupyter Notebook Analysis
+Prior to structuring the data for SQL analysis, a comprehensive analysis was executed using a Jupyter Notebook and Python. 
+* Explotary Data Analysis (EDA)
+* Sales and Profit Analysis by Year and Month.
+* Discount-Profit relationship
+* Market Performance 
 
 ## Tool  
-SQL Server Management Studio 2022 program with MS SQL Server
+SQL Server Management Studio 2022 program with MS SQL Server, Jupyter Notebook, Power BI Desktop 
 
 
 ## Dataset Preparation 
@@ -22,7 +28,7 @@ For the data analysis of Global's Supply Chain dataset, the following preparator
 * Schema Enhancement: Column names were standardized and updated for consistency. New columns were subsequently added to clearly represent the Order_Date and Shipment_Date.
 This process ensures the dataset is clean, well-structured, and ready for subsequent sales and product analysis.
 
-## Data Analysis 
+## Data Analysis using SQL 
 * Total Sales
 * Total order Profit
 * Sales and Profit by Product Category and Product Name
